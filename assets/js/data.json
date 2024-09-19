@@ -1,0 +1,171 @@
+{
+  "title": "FWN",
+  "favicon": "./favicon.svg",
+  "css": "./assets/css/style.css",
+  "fonts": [
+    "https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+  ],
+  "preload_images": [
+    "./assets/images/hero-banner.png",
+    "./assets/images/hero-circle-one.png",
+    "./assets/images/hero-circle-two.png",
+    "./assets/images/heart-rate.svg",
+    "./assets/images/calories.svg"
+  ],
+  "header": {
+    "logo": "FWN",
+    "navbar": [{
+        "href": "#home",
+        "text": "Home"
+      },
+      {
+        "href": "#about",
+        "text": "My Story"
+      },
+      {
+        "href": "#class",
+        "text": "Plans"
+      },
+      {
+        "href": "#transformations",
+        "text": "Transformations"
+      },
+      {
+        "href": "#footer",
+        "text": "Contact"
+      }
+    ]
+  },
+  "hero": {
+    "id": "home",
+    "background_image": "./assets/images/hero-bg.png",
+    "subtitle_strong": "Transform",
+    "subtitle_normal": "with Nayan",
+    "title": "Achieve Your Fitness Goals",
+    "text": "Join FitWithNayan and experience personalized training tailored to your unique needs. Let's work together to build a healthier, stronger you.",
+    "button_text": "Book Now",
+    "button_href": "https://forms.gle/bU5395Puz5zF1exN7",
+    "banner_images": [
+      "./assets/images/hero-banner.png",
+      "./assets/images/heart-rate.svg",
+      "./assets/images/hero-circle-one.png",
+      "./assets/images/hero-circle-two.png",
+      "./assets/images/heart-rate.svg",
+      "./assets/images/calories.svg"
+    ]
+  },
+  "about": {
+    "id": "about",
+    "subtitle": "My Story",
+    "title": "Welcome To Fit With Nayan",
+    "texts": [
+      "Embarking on my fitness journey was a transformative experience, and it inspired me to help others achieve their goals. At FitWithNayan, I believe in a holistic approach to fitness that encompasses physical, mental, and emotional well-being.",
+      "From personalized training plans to motivational support, I am dedicated to helping you become the best version of yourself. Let's work together to unlock your full potential and lead a healthier, more fulfilling life."
+    ],
+    "coach": {
+      "name": "Nayan Kar",
+      "avatar": "./assets/images/about-coach.jpg"
+    }
+  },
+  "video": {
+    "title": "Explore Fitness Life",
+    "src": "./assets/videos/explore-fitness.mp4"
+  },
+  "plans": {
+    "id": "class",
+    "background_image": "./assets/images/classes-bg.png",
+    "subtitle": "Plans",
+    "title": "Fitness Plans For Every Goal",
+    "packages": [{
+        "name": "Basic Package",
+        "image": "./assets/images/class-1.jpg",
+        "description": "Includes a custom weekly workout plan and limited access to trainer (e.g., weekly check-ins via email/text).",
+        "price": "$55.00/mo"
+      },
+      {
+        "name": "Standard Package",
+        "image": "./assets/images/class-2.jpg",
+        "description": "Includes weekly workout plan, nutrition guidance, and regular check-ins with trainers (via calls, emails, text, or video).",
+        "price": "$75.00/mo"
+      },
+      {
+        "name": "Premium Package",
+        "image": "./assets/images/class-3.jpg",
+        "description": "Includes customized weekly workout plan, nutrition plan, unlimited support, live virtual sessions, and personalized feedback.",
+        "price": "$95.00/mo"
+      }
+    ]
+  },
+  "transformations": {
+    "id": "transformations",
+    "subtitle": "Transformations",
+    "title": "Witness The Progress",
+    "items": [{
+        "before_image": "./assets/images/transformations/image.jpg",
+        "after_image": "./assets/images/transformations/image.jpg",
+        "title": "Client Transformation",
+        "description": "[Short Description Here]"
+      },
+      {
+        "before_image": "./assets/images/transformations/image.jpg",
+        "after_image": "./assets/images/transformations/image.jpg",
+        "title": "Client Transformation",
+        "description": "[Short Description Here]"
+      },
+      {
+        "before_image": "./assets/images/transformations/image.jpg",
+        "after_image": "./assets/images/transformations/image.jpg",
+        "title": "Client Transformation",
+        "description": "[Short Description Here]"
+      },
+      {
+        "before_image": "./assets/images/transformations/image.jpg",
+        "after_image": "./assets/images/transformations/image.jpg",
+        "title": "Client Transformation",
+        "description": "[Short Description Here]"
+      }
+    ]
+  },
+  "footer": {
+    "background_image": "./assets/images/footer-bg.png",
+    "brand": {
+      "logo": "FWN",
+      "text": "Empowering you to achieve your fitness goals with personalized training and expert guidance. Join FitWithNayan today and transform your life!"
+    },
+    "contact": {
+      "title": "Contact",
+      "items": [{
+          "icon": "call",
+          "href": "tel:9056223358",
+          "text": "+1 905 622 3358"
+        },
+        {
+          "icon": "mail",
+          "href": "mailto:fwnfitness@gmail.com",
+          "text": "fwnfitness@gmail.com"
+        }
+      ]
+    },
+    "social_links": [{
+        "href": "https://www.instagram.com/fit.withnayan/",
+        "icon": "logo-instagram"
+      },
+      {
+        "href": "https://www.tiktok.com/@fit.withnayan",
+        "icon": "logo-tiktok"
+      },
+      {
+        "href": "mailto:fwnfitness@gmail.com",
+        "icon": "mail-outline"
+      }
+    ],
+    "copyright": {
+      "year": "2024",
+      "text": "All Rights Reserved By",
+      "link": {
+        "href": "#",
+        "text": "FitWithNayan"
+      }
+    }
+  }
+}

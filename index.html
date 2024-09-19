@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <span class="span"></span>
+      </a>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link></a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link></a>
+          </li>
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link></a>
+          </li>
+          <li>
+            <a href="#transformations" class="navbar-link" data-nav-link></a>
+          </li>
+          <li>
+            <a href="#footer" class="navbar-link" data-nav-link></a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle"></p>
+            <h1 class="h1 hero-title"></h1>
+            <p class="section-text"></p>
+            <a href="" class="btn btn-primary"></a>
+          </div>
+          <div class="hero-banner">
+            <img src="" width="660" height="753" alt="hero banner" class="hero-img w-100">
+            <img src="" width="666" height="666" aria-hidden="true" alt="" class="circle circle-1">
+            <img src="" width="666" height="666" aria-hidden="true" alt="" class="circle circle-2">
+            <img src="" width="255" height="270" alt="heart rate" class="abs-img abs-img-1">
+            <img src="" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <div class="about-content">
+            <p class="section-subtitle"></p>
+            <h2 class="h2 section-title"></h2>
+            <p class="section-text"></p>
+            <p class="section-text"></p>
+            <div class="wrapper">
+              <div class="about-coach">
+                <figure>
+                  <img src="" width="65" height="65" loading="lazy" alt="Trainer" class="coach-avatar">
+                </figure>
+                <div>
+                  <h3 class="h3 coach-name"></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #VIDEO
+      -->
+      <section class="section video" id="video" aria-label="video">
+        <div class="container">
+          <div class="video-card has-before has-bg-image">
+            <h2 class="h2 card-title"></h2>
+            <video id="explore-video" class="video-element" controls>
+              <source id="video-source" src="./assets/videos/explore-fitness.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <button id="play-btn" class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #CLASS
+      -->
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class">
+        <div class="container">
+          <p class="section-subtitle"></p>
+          <h2 class="h2 section-title text-center"></h2>
+          <ul class="class-list has-scrollbar">
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #TRANSFORMATIONS
+      -->
+      <section class="section transformations" id="transformations" aria-label="transformations">
+        <div class="container">
+          <p class="section-subtitle">Transformations</p>
+          <h2 class="h2 section-title text-center">Witness The Progress</h2>
+          <ul class="transformations-list has-scrollbar"></ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer" id="footer">
+    <div class="section footer-top bg-dark has-bg-image">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="span"></span>
+          </a>
+          <p class="footer-brand-text"></p>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title has-before"></p>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <ul class="social-list">
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+<!--
+    - load content
+  -->
+<script src="./assets/js/main.js" defer></script>
