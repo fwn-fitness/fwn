@@ -491,13 +491,13 @@ body {
 
 .abs-img-1 {
   top: 20px;
-  right: -50px;
+  right: 0px;
   width: 190px;
 }
 
 .abs-img-2 {
   bottom: -50px;
-  left: -40px;
+  left: -0px;
   width: 280px;
 }
 

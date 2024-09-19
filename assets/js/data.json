@@ -44,7 +44,7 @@
     "title": "Achieve Your Fitness Goals",
     "text": "Join FitWithNayan and experience personalized training tailored to your unique needs. Let's work together to build a healthier, stronger you.",
     "button_text": "Book Now",
-    "button_href": "",
+    "button_href": "https://forms.gle/bU5395Puz5zF1exN7",
     "banner_images": [
       "./assets/images/hero-banner.png",
       "./assets/images/heart-rate.svg",
@@ -77,19 +77,19 @@
     "subtitle": "Plans",
     "title": "Fitness Plans For Every Goal",
     "packages": [{
-        "name": "Basic Package",
+        "name": "Bronze Package",
         "image": "./assets/images/class-1.jpg",
         "description": "Includes a custom weekly workout plan and limited access to trainer (e.g., weekly check-ins via email/text).",
         "price": "$55.00/mo"
       },
       {
-        "name": "Standard Package",
+        "name": "Silver Package",
         "image": "./assets/images/class-2.jpg",
         "description": "Includes weekly workout plan, nutrition guidance, and regular check-ins with trainers (via calls, emails, text, or video).",
         "price": "$75.00/mo"
       },
       {
-        "name": "Premium Package",
+        "name": "Gold Package",
         "image": "./assets/images/class-3.jpg",
         "description": "Includes customized weekly workout plan, nutrition plan, unlimited support, live virtual sessions, and personalized feedback.",
         "price": "$95.00/mo"
